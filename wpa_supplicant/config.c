@@ -5643,7 +5643,7 @@ static const struct global_parse_data global_fields[] = {
 	{ INT(pmf), 0 },
 	{ INT_RANGE(sae_check_mfp, 0, 1), 0 },
 	{ FUNC(sae_groups), 0 },
-	{ INT_RANGE(sae_pwe, 0, 3), 0 },
+	{ INT_RANGE(sae_pwe, 0, 0), 0 },
 	{ INT_RANGE(sae_pmkid_in_assoc, 0, 1), 0 },
 	{ INT(dtim_period), 0 },
 	{ INT(beacon_int), 0 },
